@@ -34,4 +34,21 @@ public class Point {
 		this.x = x;
 		this.y = y;
 	}
+
+    public boolean equals(Object obj) {
+        Point p = (Point) obj;
+        if (p.x == x && p.y == y) {
+            return true;
+        }
+        return false;
+    }
+
+    public static Point middle(Point p1, Point p2) {
+        return new Point((p1.getX() + p2.getX())/2, (p1.getY() + p2.getY())/2);
+    }
+
+    public static Point middleRand(Point p1, Point p2, double dev) {
+        return new Point((p1.getX() + p2.getX())/2,
+                         (p1.getY() + p2.getY() + RandomUtilities.randFunc(dev))/2);
+    }
 }

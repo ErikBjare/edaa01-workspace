@@ -67,19 +67,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="FifoQueue.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lab2/src/queue/FifoQueue.java">
+      <file leaf-file-name="Fractal.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/fractal/Fractal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.08737864" vertical-offset="486" max-vertical-offset="2466">
+            <state line="7" column="22" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestFifoQueue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/testqueue/TestFifoQueue.java">
+      <file leaf-file-name="FractalApplication.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/fractal/FractalApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="128" column="0" selection-start="3345" selection-end="3345" vertical-scroll-proportion="0.0" vertical-offset="2089" max-vertical-offset="2862">
+            <state line="9" column="37" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,13 +87,72 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestAppendFifoQueue.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lab2/src/testqueue/TestAppendFifoQueue.java">
+      <file leaf-file-name="Mountain.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lab3/src/mountain/Mountain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="0" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1278">
+            <state line="96" column="24" selection-start="2643" selection-end="2643" vertical-scroll-proportion="0.7108239" vertical-offset="1288" max-vertical-offset="2718">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#206#212#0" expanded="true" />
+                <element signature="e#1887#1888#0" expanded="true" />
+                <element signature="e#1924#1925#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Point.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/mountain/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="21" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1008">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomUtilities.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/mountain/RandomUtilities.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="44" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Koch.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/koch/Koch.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="27" column="8" selection-start="500" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1026">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FractalView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/fractal/FractalView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="8" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="1134">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommandPanel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/fractal/CommandPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderDownButton.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lab3/src/fractal/OrderDownButton.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="22" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -116,12 +175,20 @@
         <option value="$PROJECT_DIR$/lab2/src/testqueue/TestAppendFifoQueue.java" />
         <option value="$PROJECT_DIR$/lab2/src/testqueue/TestFifoQueue.java" />
         <option value="$PROJECT_DIR$/lab2/src/queue/FifoQueue.java" />
+        <option value="$PROJECT_DIR$/lab3/src/koch/Koch.java" />
+        <option value="$PROJECT_DIR$/lab3/src/fractal/OrderUpButton.java" />
+        <option value="$PROJECT_DIR$/lab3/src/fractal/OrderDownButton.java" />
+        <option value="$PROJECT_DIR$/lab3/src/fractal/CommandPanel.java" />
+        <option value="$PROJECT_DIR$/lab3/src/fractal/FractalApplication.java" />
+        <option value="$PROJECT_DIR$/lab3/src/mountain/Point.java" />
+        <option value="$PROJECT_DIR$/lab3/src/mountain/Mountain.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1920" />
-    <option name="height" value="1055" />
+    <option name="x" value="-3" />
+    <option name="width" value="1926" />
+    <option name="height" value="1057" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -149,6 +216,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -157,16 +225,6 @@
               <option name="myItemId" value="edaa01-workspace" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edaa01-workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -174,7 +232,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab2" />
+              <option name="myItemId" value="lab3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -184,21 +242,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="edaa01-workspace" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="lab2" />
+              <option name="myItemId" value="lab3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -206,7 +250,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="testqueue" />
+              <option name="myItemId" value="mountain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -216,7 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lab2" />
+              <option name="myItemId" value="lab3" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -224,7 +268,25 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="queue" />
+              <option name="myItemId" value="koch" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="edaa01-workspace" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="fractal" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -282,7 +344,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -302,8 +363,14 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="last_opened_file_path" value="$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
-  <component name="RunManager" selected="JUnit.TestAppendFifoQueue">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="fractal" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.FractalApplication">
     <configuration default="false" name="TestFifoQueue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="lab2" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -312,28 +379,6 @@
       <option name="MAIN_CLASS_NAME" value="testqueue.TestFifoQueue" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestFifoQueue.testPoll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="lab2" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="testqueue" />
-      <option name="MAIN_CLASS_NAME" value="testqueue.TestFifoQueue" />
-      <option name="METHOD_NAME" value="testPoll" />
-      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -414,6 +459,22 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="FractalApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="fractal.FractalApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lab3" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin" singleton="true">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -448,19 +509,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -486,6 +534,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -543,18 +604,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestFifoQueue" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TestFifoQueue.testPoll" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestFifoQueue.testIterator" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestFifoQueue.testAppend" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestAppendFifoQueue" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TestFifoQueue.testIterator" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestFifoQueue.testAppend" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestAppendFifoQueue" />
+      <item index="4" class="java.lang.String" itemvalue="Application.FractalApplication" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestAppendFifoQueue" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestFifoQueue" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestFifoQueue.testIterator" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestFifoQueue.testAppend" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestFifoQueue.testPoll" />
+        <item index="0" class="java.lang.String" itemvalue="Application.FractalApplication" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestAppendFifoQueue" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestFifoQueue" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestFifoQueue.testIterator" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestFifoQueue.testAppend" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -589,32 +650,32 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1920" height="1055" extended-state="6" />
-    <editor active="true" />
+    <frame x="-3" y="0" width="1926" height="1057" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3991684" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16145833" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32952183" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32848233" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -638,6 +699,27 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/lab2/src/queue/FifoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2466">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/testqueue/TestFifoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="128" column="0" selection-start="3345" selection-end="3345" vertical-scroll-proportion="0.0" vertical-offset="2089" max-vertical-offset="2862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/testqueue/TestAppendFifoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="0" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0" vertical-offset="882" max-vertical-offset="1278">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/lab1/src/set/ArraySet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="29" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.0" vertical-offset="1260" max-vertical-offset="1728">
@@ -663,11 +745,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1/src/set/SetHelpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="486">
-          <folding>
-            <element signature="e#177#186#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="21" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="486" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1/src/test/SetHelpersTest.java">
@@ -679,9 +757,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1/src/set/MaxSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="7" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1206">
-          <folding />
-        </state>
+        <state line="46" column="7" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0" vertical-offset="828" max-vertical-offset="1206" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1/src/set/ArraySet.java">
@@ -733,11 +809,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/ArrayList.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="55" selection-start="1956" selection-end="1956" vertical-scroll-proportion="0.33333334" vertical-offset="784" max-vertical-offset="3042" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lab1/src/set/ArraySet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="70" column="29" selection-start="1811" selection-end="1811" vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="1710">
@@ -747,18 +818,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1/src/set/SetHelpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
-          <folding>
-            <element signature="e#177#186#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="21" column="0" selection-start="482" selection-end="482" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1/src/set/MaxSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="7" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1170">
-          <folding />
-        </state>
+        <state line="46" column="7" selection-start="1247" selection-end="1247" vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1170" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab1/src/test/TestArraySet.java">
@@ -779,33 +844,134 @@
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/junit-4.10.jar!/org/junit/Assert.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="122" column="0" selection-start="6525" selection-end="6525" vertical-scroll-proportion="-18.88" vertical-offset="1706" max-vertical-offset="2286">
-          <folding />
-        </state>
+        <state line="122" column="0" selection-start="6525" selection-end="6525" vertical-scroll-proportion="-18.88" vertical-offset="1706" max-vertical-offset="2286" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab2/src/testqueue/TestAppendFifoQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="49" column="0" selection-start="1223" selection-end="1223" vertical-scroll-proportion="0.0" vertical-offset="660" max-vertical-offset="1278">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lab2/src/testqueue/TestFifoQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="128" column="0" selection-start="3345" selection-end="3345" vertical-scroll-proportion="0.0" vertical-offset="1927" max-vertical-offset="2862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab2/src/queue/FifoQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="8" selection-start="1132" selection-end="1132" vertical-scroll-proportion="0.0" vertical-offset="486" max-vertical-offset="2466">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/fractal/OrderUpButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="65" selection-end="480" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="486">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/fractal/OrderDownButton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="22" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="504">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/fractal/CommandPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="58" selection-end="58" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lab2/src/queue/FifoQueue.java">
+    <entry file="file://$PROJECT_DIR$/lab3/src/fractal/TurtleGraphics.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="662" selection-end="662" vertical-scroll-proportion="0.08737864" vertical-offset="486" max-vertical-offset="2466">
+        <state line="34" column="16" selection-start="954" selection-end="954" vertical-scroll-proportion="0.33214286" vertical-offset="426" max-vertical-offset="2358">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/koch/Koch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="27" column="8" selection-start="500" selection-end="616" vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="1026">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/mountain/RandomUtilities.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="44" selection-start="133" selection-end="133" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="288">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/fractal/Fractal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="22" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="846">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/fractal/FractalApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="37" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="360">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/Set.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="156" selection-end="156" vertical-scroll-proportion="0.15706806" vertical-offset="0" max-vertical-offset="738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/util/ArrayList.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="19" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.7178571" vertical-offset="156" max-vertical-offset="3042">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///usr/lib/jvm/java-7-openjdk-amd64/jre/lib/rt.jar!/java/lang/Object.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="19" selection-start="367" selection-end="367" vertical-scroll-proportion="0.33214286" vertical-offset="66" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/mountain/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="21" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="1008">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/fractal/FractalView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="8" selection-start="928" selection-end="928" vertical-scroll-proportion="0.0" vertical-offset="161" max-vertical-offset="1134">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab3/src/mountain/Mountain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="24" selection-start="2643" selection-end="2643" vertical-scroll-proportion="0.7108239" vertical-offset="1288" max-vertical-offset="2718">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#206#212#0" expanded="true" />
+            <element signature="e#1887#1888#0" expanded="true" />
+            <element signature="e#1924#1925#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
