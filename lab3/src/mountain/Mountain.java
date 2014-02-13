@@ -7,7 +7,7 @@ import java.util.Objects;
 
 public class Mountain extends Fractal {
     private double dev;
-    private ArrayList<Side> sides = new ArrayList<Side>();
+    private ArrayList<Side> sides;
 
     /**
      * Creates an object that handles a Mountain fractal
@@ -34,6 +34,7 @@ public class Mountain extends Fractal {
      * @param turtle the turtle graphic object
      */
     public void draw(TurtleGraphics turtle) {
+        this.sides = new ArrayList<Side>();
         fractalTriangle(turtle, order, firstTriangle(), dev);
     }
 
@@ -48,10 +49,8 @@ public class Mountain extends Fractal {
      */
     private void fractalTriangle(TurtleGraphics turtle, int order, Triangle tri, double dev) {
         if (order == 0) {
-            //tri.draw(turtle);
-            for(Side s : sides) {
-                turtle.moveTo(s.points[0].getX(), s.points[0].getY());
-                turtle.forwardTo(s.points[1].getX(), s.points[1].getY());
+            for (Triangle t : tri.subdivide(dev)) {
+                t.draw(turtle);
             }
         } else {
             for (Triangle t : tri.subdivide(dev)) {
@@ -75,7 +74,7 @@ public class Mountain extends Fractal {
             return points;
         }
 
-        public Point[] getMiddlePoints(double dev) {
+        public Side[] getSides() {
             Side[] retsides = new Side[]{
                     new Side(points[0], points[1]),
                     new Side(points[1], points[2]),
@@ -85,11 +84,17 @@ public class Mountain extends Fractal {
             for(int i = 0; i<3; i++) {
                 int idx = sides.indexOf(retsides[i]);
                 if (idx != -1){
-                    retsides[i] = sides.remove(idx);
+                    retsides[i] = sides.get(idx);
                 } else {
                     sides.add(retsides[i]);
                 }
             }
+
+            return retsides;
+        }
+
+        public Point[] getMiddlePoints(double dev) {
+            Side[] retsides = getSides();
 
             Point[] retpoints = new Point[]{
                     retsides[0].getMidPoint(dev),
@@ -109,12 +114,21 @@ public class Mountain extends Fractal {
                     new Triangle(ps[0], ps[1], ps[2])};
         }
 
+        /**
         public void draw(TurtleGraphics t) {
             t.moveTo(points[0].getX(), points[0].getY());
             t.penDown();
             for (Point p : points) {
                 if (p == points[0]) continue;
                 t.forwardTo(p.getX(), p.getY());
+            }
+        }
+         */
+
+        public void draw(TurtleGraphics t) {
+            for(Side s : getSides()) {
+                t.moveTo(s.points[0].getX(), s.points[0].getY());
+                t.forwardTo(s.points[1].getX(), s.points[1].getY());
             }
         }
     }
