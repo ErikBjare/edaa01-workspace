@@ -17,7 +17,9 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 	 * @return true if the the element was inserted
 	 */
 	public boolean add(E x) {
-		return false;
+        boolean result = root.add(x);
+        if(result) size++;
+        return result;
 	}
 	
 	/**
@@ -25,7 +27,7 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 	 * @return the height of the tree
 	 */
 	public int height() {
-		return 0;
+        return root.height();
 	}
 	
 	/**
@@ -71,14 +73,34 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 	
 
 
-	static class BinaryNode<E> {
+	static class BinaryNode<E extends Comparable<E>> {
 		E element;
 		BinaryNode<E> left;
 		BinaryNode<E> right;
 
 		private BinaryNode(E element) {
 			this.element = element;
-		}	
+		}
+
+        private int height() {
+            int h = 0;
+            if(left != null) h = left.height();
+            if(right != null) {
+                int h2 = right.height();
+                if(h2 > h) h = h2;
+            }
+            return h+1;
+        }
+
+        private boolean add(E x) {
+            if(x.compareTo(x) < 0) {
+                return left.add(x);
+            } else if (x.compareTo(x) > 0) {
+                return right.add(x);
+            } else {
+                return false;
+            }
+        }
 	}
 	
 }
