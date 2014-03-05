@@ -113,7 +113,7 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
         int i = index(key);
         if(i == 137) System.out.println(show());
         if(table[i] == null) return null;
-        else if(table[i].getKey() == key) {
+        else if(table[i].getKey().equals(key)) {
             Entry<K,V> e = table[i];
             table[i] = e.next;
             size--;
