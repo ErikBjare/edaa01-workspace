@@ -20,14 +20,23 @@ public class PhoneBookGUI extends JFrame {
 		setLayout(new BorderLayout());
 		JMenuBar menubar = new JMenuBar();
 		setJMenuBar(menubar);
+
 		JMenu editMenu = new JMenu("Edit");
 		menubar.add(editMenu);
 		editMenu.add(new AddMenu(phoneBook,this));
 		editMenu.add(new RemoveMenu(phoneBook,this));
-			
+
+        JMenu findMenu = new JMenu("Find");
+        menubar.add(findMenu);
+        findMenu.add(new FindNameMenu(phoneBook,this));
+        findMenu.add(new FindNumberMenu(phoneBook,this));
+
+        JMenu viewMenu = new JMenu("View");
+        menubar.add(viewMenu);
+        viewMenu.add(new ShowMenu(phoneBook,this));
 		
 		JPanel southPanel = new JPanel();
-		messageArea = new JTextArea(4,25);
+		messageArea = new JTextArea(8,50);
 		messageArea.setEditable(false);
 		southPanel.add(new JScrollPane(messageArea));
 		southPanel.add(new QuitButton(phoneBook,this));
@@ -36,4 +45,8 @@ public class PhoneBookGUI extends JFrame {
 		pack();
 		setVisible(true);
 	}
+
+    public void println(String s) {
+        messageArea.append(s + "\n");
+    }
 }

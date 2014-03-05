@@ -1,6 +1,9 @@
 package phonebook;
+import sun.awt.image.ImageWatched;
+
 import javax.swing.*;
 import java.awt.event.*;
+import java.util.LinkedList;
 
 @SuppressWarnings("serial")
 public class AddMenu extends JMenuItem implements ActionListener {
@@ -14,7 +17,21 @@ public class AddMenu extends JMenuItem implements ActionListener {
 		addActionListener(this);
 	}
 	
-	 public void actionPerformed(ActionEvent e) {
-		
-	 }
+    public void actionPerformed(ActionEvent e) {
+        String name = JOptionPane.showInputDialog("Enter name");
+        if(name.equals("") || name == null) {
+            gui.println("User cancelled input");
+            return;
+        }
+        String number = JOptionPane.showInputDialog("Enter number");
+        if(number.equals("") || number == null) {
+            gui.println("User cancelled input");
+            return;
+        }
+        if(phoneBook.put(name, number)) {
+            gui.println("Successfully added number '" + number + "' to name '" + name + "'");
+        } else {
+            gui.println("Entry already existed (number '" + number + "' with name '" + name + "')");
+        }
+    }
 }

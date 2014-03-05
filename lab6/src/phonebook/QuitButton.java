@@ -1,6 +1,8 @@
 package phonebook;
 import javax.swing.*;
 import java.awt.event.*;
+import java.io.FileOutputStream;
+import java.io.ObjectOutputStream;
 
 
 public class QuitButton extends JButton implements ActionListener {
@@ -14,7 +16,8 @@ public class QuitButton extends JButton implements ActionListener {
 		addActionListener(this);
 	}
 	
-	 public void actionPerformed(ActionEvent e) {
-		
-	 }
+    public void actionPerformed(ActionEvent e) {
+        phoneBook.save();
+        System.exit(0);
+    }
 }
