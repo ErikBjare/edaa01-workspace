@@ -19,12 +19,12 @@ public class AddMenu extends JMenuItem implements ActionListener {
 	
     public void actionPerformed(ActionEvent e) {
         String name = JOptionPane.showInputDialog("Enter name");
-        if(name.equals("") || name == null) {
+        if(name == null || name.equals("")) {
             gui.println("User cancelled input");
             return;
         }
         String number = JOptionPane.showInputDialog("Enter number");
-        if(number.equals("") || number == null) {
+        if(number == null || number.equals("")) {
             gui.println("User cancelled input");
             return;
         }

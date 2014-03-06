@@ -17,7 +17,7 @@ public class FindNumberMenu extends JMenuItem implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         String number = JOptionPane.showInputDialog("Enter number");
-        if(number.equals("") || number == null) {
+        if(number == null || number.equals("")) {
             gui.println("User cancelled input");
             return;
         }

@@ -111,7 +111,6 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
     public V remove(Object arg0) {
         K key = (K)arg0;
         int i = index(key);
-        if(i == 137) System.out.println(show());
         if(table[i] == null) return null;
         else if(table[i].getKey().equals(key)) {
             Entry<K,V> e = table[i];
@@ -122,7 +121,7 @@ public class SimpleHashMap<K, V> implements Map<K, V> {
             Entry<K,V> e_prev = table[i];
             Entry<K,V> e_curr = table[i].next;
             while(e_curr != null) {
-                if(e_curr.getKey() == key) {
+                if(e_curr.getKey().equals(key)) {
                     e_prev.next = e_curr.next;
                     size--;
                     return e_curr.getValue();

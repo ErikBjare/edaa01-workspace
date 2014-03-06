@@ -38,7 +38,7 @@ public class Mountain extends Fractal {
         fractalTriangle(turtle, order, firstTriangle(), dev);
     }
 
-    public Triangle firstTriangle() {
+    private Triangle firstTriangle() {
         return new Triangle(new Point[]{new Point(50, 500),
                 new Point(250, 100),
                 new Point(450, 500)});
@@ -85,6 +85,7 @@ public class Mountain extends Fractal {
                 int idx = sides.indexOf(retsides[i]);
                 if (idx != -1){
                     retsides[i] = sides.get(idx);
+                    sides.remove(idx);
                 } else {
                     sides.add(retsides[i]);
                 }

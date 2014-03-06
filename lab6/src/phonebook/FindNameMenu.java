@@ -18,7 +18,7 @@ public class FindNameMenu extends JMenuItem implements ActionListener {
 
     public void actionPerformed(ActionEvent e) {
         String name = JOptionPane.showInputDialog("Enter name");
-        if(name.equals("") || name == null) {
+        if(name == null || name.equals("")) {
             gui.println("User cancelled input");
             return;
         }

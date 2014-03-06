@@ -127,7 +127,7 @@ public class PhoneBook implements Serializable {
         try {
             ObjectOutputStream out;
             out = new ObjectOutputStream(new FileOutputStream(filename));
-            out.writeObject(this);
+            out.writeObject(this.phoneBook);
         } catch (Exception exc) {
             exc.printStackTrace();
             System.exit(1);
@@ -139,8 +139,7 @@ public class PhoneBook implements Serializable {
         try {
             ObjectInputStream in =
                     new ObjectInputStream(new FileInputStream(fileName));
-            PhoneBook phonebook = (PhoneBook) in.readObject();
-            phoneBook = phonebook.phoneBook;
+            phoneBook = (HashMap<String, LinkedList<String>>) in.readObject();
         } catch (FileNotFoundException e) {
             phoneBook = new HashMap<String,LinkedList<String>>();
         } catch (Exception e) {

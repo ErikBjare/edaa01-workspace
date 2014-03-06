@@ -16,8 +16,10 @@ public class OrderDownButton extends JButton implements ActionListener {
 
 	public void actionPerformed(ActionEvent e) {
 		Fractal fractal = view.getFractal();
-		fractal.setOrder(fractal.getOrder() - 1);
-		view.updateDrawing();
+        if(fractal.getOrder() > 0) {
+		    fractal.setOrder(fractal.getOrder() - 1);
+		    view.updateDrawing();
+        }
 	}
 
 }

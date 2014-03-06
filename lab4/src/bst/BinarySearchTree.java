@@ -38,6 +38,7 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 	public boolean add(E x) {
         if(root == null) {
             root = new BinaryNode<E>(x);
+            size++;
             return true;
         }
         boolean result = root.add(x);
@@ -59,8 +60,9 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
 	 * @return the number of elements in this tree
 	 */
 	public int size() {
-        if(root == null) return 0;
-        return root.size();
+        return size;
+        //if(root == null) return 0;
+        //return root.size();
 	}
 	
 	/**
@@ -165,5 +167,4 @@ public class BinarySearchTree<E extends Comparable<? super E>> {
             if(right != null) right.printTree();
         }
 	}
-	
 }
